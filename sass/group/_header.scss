@@ -1,0 +1,30 @@
+.header {
+    margin: 56px ;
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    &__link {
+        text-decoration: none;
+        padding: 0 20px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #1F1534;
+        opacity: 0.5;
+
+        &:hover {
+            font-weight: 400;
+            color: #1F1534;
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_link {
+    display: block;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+
+    &:hover {
+        color: #fff;
+        background: #458ff6;
+    }
+}
