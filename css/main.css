@@ -492,11 +492,9 @@ body {
   position: absolute;
   width: 1118.54px;
   height: 967.94px;
-  background: url(../images/bg-element.svg) no-repeat;
-  -webkit-transform: translateX(-135px) rotateY(180deg) rotateX(180deg);
-          transform: translateX(-135px) rotateY(180deg) rotateX(180deg);
-  top: 0;
-  right: -6500px;
+  background: url(../images/bg-about.svg) no-repeat;
+  top: 120px;
+  right: -850px;
 }
 
 footer {
