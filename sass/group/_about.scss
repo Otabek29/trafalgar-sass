@@ -73,5 +73,15 @@
         margin-bottom: 200px;
     }
 
+    &__bg {
+        z-index: 0;
+        position: absolute;
+        width: 1118.54px;
+        height: 967.94px;
+        background: url(../images/bg-element.svg) no-repeat;
+        transform: translateX(-135px) rotateY(180deg) rotateX(180deg);
+        top: 0;
+        right: -6500px;
+    }
 
 }
