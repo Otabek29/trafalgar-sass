@@ -5,10 +5,28 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        &:nth-child(2) {
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 230px;
+            margin-bottom: 231px;
+        }
+    }
+
+    &__img {
+        transform: translateX(-100px);
+    }
+
+    &__img-2 {
+        transform: translateX(30px);
     }
 
     &__box-right {
         width: 486px;
+        &:nth-child(2) {
+            width: 420px;
+        }
     }
 
     &__title {
@@ -19,8 +37,32 @@
     }
 
     &__line {
-        color: #000000;
+        background: #000000;
         width: 56px;
         height: 2px;
+        transform: translateX(-213px);
+        border: 1px solid #000;
+        &:nth-child(2) {
+            transform: translateX(-180px);
+        }
+    }
+
+    &__text {
+        width: 395px;
+        margin-bottom: 37px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        color: #7D7987;
+        &:nth-child(2) {
+            width: 380px;
+        }
+    }
+
+    &__svg {
+        fill: #458FF6;
+        &:hover {
+            fill: #fff
+        }
     }
 }
