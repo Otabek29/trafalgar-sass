@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 .container {
@@ -24,28 +24,24 @@ body {
   border: 1.4px solid #458FF6;
   border-radius: 55px;
 }
-
 .main_link:hover {
   color: #fff;
   background: #458ff6;
 }
 
 .header {
-  margin: 56px;
+  margin: 56px 0;
 }
-
 .header__nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .header__list {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
-
 .header__link {
   text-decoration: none;
   padding: 0 20px;
@@ -54,7 +50,6 @@ body {
   color: #1F1534;
   opacity: 0.5;
 }
-
 .header__link:hover {
   font-weight: 400;
   color: #1F1534;
@@ -66,18 +61,15 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
 .hero__box {
   width: 445px;
 }
-
 .hero__title {
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
   color: #000000;
 }
-
 .hero__text {
   font-weight: 300;
   font-size: 21px;
@@ -91,7 +83,6 @@ body {
   position: relative;
   margin-top: 192px;
 }
-
 .services__title {
   text-align: center;
   font-weight: 700;
@@ -99,7 +90,6 @@ body {
   line-height: 56px;
   color: #000000;
 }
-
 .services__line {
   background: #000000;
   border-radius: 5px;
@@ -107,7 +97,6 @@ body {
   height: 2px;
   margin-bottom: 33px;
 }
-
 .services__text {
   font-weight: 300;
   font-size: 18px;
@@ -118,7 +107,6 @@ body {
   margin: 0 auto;
   margin-bottom: 80px;
 }
-
 .services__list {
   width: 1125px;
   list-style-type: none;
@@ -128,7 +116,6 @@ body {
   align-items: center;
   transform: translateX(20px);
 }
-
 .services__item {
   width: 350px;
   margin-bottom: 37px;
@@ -138,27 +125,23 @@ body {
   border-radius: 20px;
   height: 354px;
 }
-
 .services__title-list {
   font-weight: 700;
   font-size: 24px;
   line-height: 56px;
   color: #000000;
 }
-
 .services__text-list {
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
   color: #7D7987;
 }
-
 .services__link {
   margin: 0 auto;
   margin-top: 69px;
   margin-bottom: 220px;
 }
-
 .services__bg {
   position: absolute;
   width: 1118.54px;
@@ -173,18 +156,15 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
 .apps__box-right {
   width: 486px;
 }
-
 .apps__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 56px;
   color: #000000;
 }
-
 .apps__line {
   color: #000000;
   width: 56px;
